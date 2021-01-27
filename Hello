@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="ut-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Greeting</title>
+        <script>
+            function greetUser() {
+                let name = prompt("Please write your name");
+                let greeeting = "Hi" + name + " . Isn't it a lovely day? I hope you'll see the beauty in it.";
+                window.alert(greeting);
+            }
+        </script>
+    </head>
+    <body>
+        <button type="button" onclick="greetUser()">Hi there!</button>
+    </body>
+</html>
